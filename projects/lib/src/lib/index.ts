@@ -212,7 +212,7 @@ export const syncStateUpdate = (
             } catch (e) {
                 console.warn('Unable to save state to localStorage:', e);
             }
-        } else if (typeof stateSlice === 'undefined' && removeOnUndefined) {
+        } else if (typeof stateSlice === 'undefined' && removeOnUndefined && storage !== undefined) {
             try {
                 storage.removeItem(storageKeySerializer(key as string));
             } catch (e) {
