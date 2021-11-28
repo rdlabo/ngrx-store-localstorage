@@ -8,7 +8,7 @@
         "lint": "ng lint --fix",
         "ng": "ng",
         "pretest": "npm run lint",
-        "test": "nyc ts-node -O {\"module\":\"commonjs\"} node_modules/jasmine/bin/jasmine",
+        "test": "nyc ts-node -O '{\"module\": \"commonjs\"}' node_modules/jasmine/bin/jasmine",
         "prepare": "husky install"
     },
     "repository": {
