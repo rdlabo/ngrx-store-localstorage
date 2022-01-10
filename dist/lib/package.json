@@ -1,0 +1,33 @@
+{
+  "name": "ngrx-store-localstorage",
+  "version": "13.0.0",
+  "peerDependencies": {
+    "@angular/common": "^13.0.0",
+    "@angular/core": "^13.0.0",
+    "@ngrx/store": "^13.0.0"
+  },
+  "dependencies": {
+    "deepmerge": "^4.2.2",
+    "tslib": "^2.3.0"
+  },
+  "module": "fesm2015/ngrx-store-localstorage.mjs",
+  "es2020": "fesm2020/ngrx-store-localstorage.mjs",
+  "esm2020": "esm2020/ngrx-store-localstorage.mjs",
+  "fesm2020": "fesm2020/ngrx-store-localstorage.mjs",
+  "fesm2015": "fesm2015/ngrx-store-localstorage.mjs",
+  "typings": "ngrx-store-localstorage.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./ngrx-store-localstorage.d.ts",
+      "esm2020": "./esm2020/ngrx-store-localstorage.mjs",
+      "es2020": "./fesm2020/ngrx-store-localstorage.mjs",
+      "es2015": "./fesm2015/ngrx-store-localstorage.mjs",
+      "node": "./fesm2015/ngrx-store-localstorage.mjs",
+      "default": "./fesm2020/ngrx-store-localstorage.mjs"
+    }
+  },
+  "sideEffects": false
+}

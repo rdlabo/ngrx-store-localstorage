@@ -38,6 +38,7 @@
   },
   "defaultProject": "lib",
   "cli": {
+    "analytics": false,
     "defaultCollection": "@angular-eslint/schematics"
   }
 }
