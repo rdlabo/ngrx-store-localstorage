@@ -1,8 +1,7 @@
 import deepmerge from 'deepmerge';
-import {
-    INIT as INIT_ACTION,
-    UPDATE as UPDATE_ACTION
-} from '@ngrx/store';
+
+const INIT_ACTION = 'INIT_ACTION';
+const UPDATE_ACTION = 'UPDATE_ACTION';
 
 const detectDate = /(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2}):(\d{2})/;
 

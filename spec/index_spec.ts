@@ -4,7 +4,8 @@ import * as CryptoJS from 'crypto-js';
 import deepmerge from 'deepmerge';
 import 'localstorage-polyfill';
 import { dateReviver, localStorageSync, rehydrateApplicationState, syncStateUpdate } from '../projects/lib/src/public_api';
-import { INIT as INIT_ACTION } from '@ngrx/store';
+
+const INIT_ACTION = 'INIT_ACTION';
 
 // Very simple classes to test serialization options.  They cover string, number, date, and nested classes
 // The top level class has static functions to help test reviver, replacer, serialize and deserialize
